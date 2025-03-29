@@ -1,7 +1,15 @@
+@import url("./fonts.css");
+
 @import "tailwindcss";
 
+@theme {
+  --font-founders: "FoundersGrotesk";
+  --font-icomoon: "Icomoon";
+  --font-neue: "NeueMontreal";
+}
+
 @layer base {
-    body {
-        @apply min-h-screen antialiased;
-    }
+  body {
+    @apply font-neue min-h-screen antialiased;
+  }
 }
